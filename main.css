@@ -1,61 +1,82 @@
 body {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background: url("https://www.healthline.com/hlcmsresource/images/AN_images/espresso-ground-coffee-beans-1296x728.jpg") no-repeat center center fixed;
-    background-size: cover;
-    background-color: tan;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS0HwHOLiSg56tKAWdKZK196bE24V4IAhzXJOIJGU_QBcXWYFV") no-repeat center center fixed;
+  background-size: cover;
+  background-color: tan;
+}
+
+ul {
+  list-style-type: none;
+  background-color: lightblue;
+  border: 1px solid sandybrown;
+}
+
+li {
+  display: inline;
+  font-size: 5em;
+}
+
+a {
+  float: right;
+  display: block;
+  padding: 8px;
+}
+
+#content {
+  float: left;
+  display: left;
 }
 
 .coffeedrinks {
-    margin: 12px;
-    padding: 12px;
-    
+  margin: 12px;
+  padding: 12px;
+  
 }
 
 .btn-group button {
-    background-color: grey;
-    border: 1px solid black;
-    color: black;
-    padding: 10px 24px;
-    cursor: pointer;
+  background-color: grey;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 24px;
+  cursor: pointer;
 }
 
 .btn-group button:hover {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 .modal {
-    display: none;
-    position: fixed;
-    z-index:1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(red, green, blue);
-    background-color: rgba(red, green, blue, alpha);
+  display: none;
+  position: fixed;
+  z-index:1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(red, green, blue);
+  background-color: rgba(red, green, blue, alpha);
 
 }
 
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
 }
 
 .close{
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
